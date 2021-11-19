@@ -1,0 +1,185 @@
+font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 100;
+  src: local("☺"), url("/fonts/sf-pro-display_regular.woff2") format("woff2"),
+    url("/fonts/sf-pro-display_regular.woff2") format("woff2");
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  src: local("☺"), url("/fonts/sf-pro-display_semibold.woff2") format("woff2"),
+    url("/fonts/sf-pro-display_semibold.woff2") format("woff2");
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  src: local("☺"), url("/fonts/sf-pro-text_semibold.woff2") format("woff2"),
+    url("/fonts/sf-pro-text_semibold.woff2") format("woff2");
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  src: local("☺"), url("/fonts/sf-pro-text_regular.woff2") format("woff2"),
+    url("/fonts/sf-pro-text_regular.woff2") format("woff2");
+
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+  font-family: "SF Pro Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: local("☺"), url("/fonts/sf-pro-icons_regular.woff2") format("woff2"),
+    url("/fonts/sf-pro-icons_regular.woff2") format("woff2");
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+/* CSS Reset  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.navbar {
+  position: fixed;
+  background-color: #333333;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  opacity: 90%;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+.navbar a {
+  padding: 1rem 1rem;
+  color: #d6d6d6;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #e2e0e0;
+  cursor: pointer;
+}
+
+.undernavbarredspace {
+  width: 100vw;
+  background-color: #e34140;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 0.8rem;
+  color: #fdf2f2;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.undernavbarredspace a {
+  text-decoration: none;
+  color: #fdf2f2;
+}
+.undernavbarredspace a:hover {
+  text-decoration: underline;
+}
+/* First Part of Grid */
+.gridsection1 {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+.firstgridlayout {
+  background: #fbedf9;
+  display: flex;
+  justify-content: center;
+}
+.firstpageProducts {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+.airpods {
+  padding-right: 1rem;
+}
+.applewatch {
+  padding: 0 2rem;
+}
+.appleredpicture {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: center;
+}
+.applefirstsectiontext {
+  display: flex;
+  justify-content: center;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 2.7rem;
+  font-weight: bolder;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.shopgifts {
+  display: flex;
+  justify-content: center;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  color: #0066cc;
+}
+.shopgifts a {
+  color: #0066cc;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 21px;
+}
+.shopgifts a:hover {
+  text-decoration: underline;
+}
+.firstgridlayout:hover {
+  cursor: pointer;
+}
+.firstgridlayout a {
+  text-decoration: none;
+}
+/* Second Layout in Grid */
+.secondgridlayout {
+  background: url("/img/Iphone13-Background.jpg") center center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.iphone13 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 2.7rem;
+  font-weight: bolder;
+}
+.iphone13text {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 1.9rem;
+}
+.iphone13buttons {
+  display: flex;
+  justify-content: center;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}

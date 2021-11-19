@@ -1,0 +1,50 @@
+font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 100;
+  src: local("☺"), url("/fonts/sf-pro-display_regular.woff2") format("woff2"),
+    url("/fonts/sf-pro-display_regular.woff2") format("woff");
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  src: local("☺"), url("/fonts/sf-pro-display_semibold.woff2") format("woff2"),
+    url("/fonts/sf-pro-display_semibold.woff2") format("woff");
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  src: local("☺"), url("/fonts/sf-pro-text_semibold.woff2") format("woff2"),
+    url("/fonts/sf-pro-text_semibold.woff2") format("woff2");
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  src: local("☺"), url("/fonts/sf-pro-text_regular.woff2") format("woff2"),
+    ur("/fonts/sf-pro-text_regular.woff2") l format("woff");
+
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+  font-family: "SF Pro Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: local("☺"), url("/fonts/sf-pro-icons_regular.woff2") format("woff2"),
+    url("/fonts/sf-pro-icons_regular.woff2") format("woff");
+  /* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
