@@ -61,7 +61,7 @@ font-face {
   display: flex;
   width: 100vw;
   justify-content: center;
-  opacity: 90%;
+  opacity: 98%;
   font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
     Helvetica, Arial, sans-serif;
   font-size: 1rem;
@@ -163,7 +163,7 @@ font-face {
 .iphone13 {
   display: flex;
   justify-content: center;
-  padding-top: 1.5rem;
+  padding-top: 3rem;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 2.7rem;
@@ -182,4 +182,374 @@ font-face {
   justify-content: center;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
+}
+.iphone13buttons {
+  padding-top: 1.5rem;
+  color: #1472d0;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 1.6rem;
+}
+.iphone13buttons a {
+  text-decoration: none;
+  color: #1472d0;
+}
+.learnmore {
+  padding-right: 2rem;
+}
+.iphone13buttons a:hover {
+  text-decoration: underline;
+}
+/* Third Layout in Grid */
+.thirdgridlayout {
+  background: url("/img/Iphone-ThirdSection-Background.jpg") center center/cover
+    no-repeat;
+}
+.iphone13thirdsection {
+  display: flex;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #f5f5f7;
+  justify-content: center;
+  padding-top: 4rem;
+  font-size: 3.2rem;
+  font-weight: bolder;
+}
+.iphone13thirdsectiontext {
+  display: flex;
+  justify-content: center;
+  color: #f9bee6;
+  font-size: 2rem;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.thirdsectionbuttons {
+  display: flex;
+  justify-content: center;
+  color: #2992f7;
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}
+.thirdsectionbuttons a {
+  color: #2992f7;
+  text-decoration: none;
+}
+.thirdsectionbuttons a:hover {
+  text-decoration: underline;
+}
+/* Second Grid Layout */
+.gridsection2 {
+  margin-top: 1rem;
+  height: 150vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 3fr);
+  grid-gap: 1rem;
+}
+/* Grids Background */
+.gridtwo1 {
+  background: url(/img/Grid2-FirstPicture-Mac.jpg) center center/cover no-repeat;
+}
+.gridtwo2 {
+  background: url(/img/Grid2-SecondPicture-AppleWatch.jpg) center center/cover
+    no-repeat;
+}
+.gridtwo3 {
+  background: url(/img/Grid2-ThirdPicture-Homepod.jpg) center center/cover
+    no-repeat;
+}
+.gridtwo4 {
+  background: url(/img/Grid2-FirstPicture-Arcade.jpg) center center/cover
+    no-repeat;
+}
+.gridtwo5 {
+  background: url(/img/Grid2-FirstPicture-AppleCard.jpg) center center/cover
+    no-repeat;
+}
+.gridtwo6 {
+  background: url(/img/Grid2-FirstPicture-TV+.jpg) center center/cover no-repeat;
+}
+/* Grid 1 */
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 2.6rem;
+  padding-top: 2rem;
+  font-weight: bolder;
+}
+.subtitle {
+  display: flex;
+  justify-content: center;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.macbookbuttons {
+  display: flex;
+  justify-content: center;
+  color: #1371cf;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+.macbookbuttons a {
+  color: #1371cf;
+  text-decoration: none;
+}
+.macbookbuttons a:hover {
+  text-decoration: underline;
+}
+/* Grid 2 */
+.applewatch7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+.subtitle {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.applewatchbuttons {
+  display: flex;
+  justify-content: center;
+}
+.smallsizedtext {
+  color: #cc7038;
+  font-size: 0.9rem;
+  padding-top: 1.5rem;
+}
+.applewatchbuttons {
+  color: #1371cf;
+}
+.applewatchbuttons a {
+  text-decoration: none;
+  color: #1371cf;
+  font-size: 1.2rem;
+}
+.applewatchbuttons a:hover {
+  text-decoration: underline;
+}
+/* Grid 3 */
+.homepodbuttons {
+  display: flex;
+  justify-content: center;
+  color: #1371cf;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+.homepodbuttons a {
+  text-decoration: none;
+  color: #1371cf;
+}
+.homepodbuttons a:hover {
+  text-decoration: none;
+}
+/* Grid 4 */
+.arcadebuttons {
+  display: flex;
+  justify-content: center;
+  color: #1371cf;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+.arcadebuttons a {
+  color: #1371cf;
+  text-decoration: none;
+}
+.arcadebuttons a:hover {
+  text-decoration: underline;
+}
+/* Grid 5 */
+.applecardsubtitle {
+  text-align: center;
+}
+.applecardbuttons {
+  display: flex;
+  justify-content: center;
+  color: #1371cf;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+.applecardbuttons a {
+  color: #1371cf;
+  text-decoration: none;
+}
+.applecardbuttons a:hover {
+  text-decoration: underline;
+}
+/* Grid 6 */
+.appletvsubtitle {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  align-items: center;
+  padding-top: 14rem;
+}
+.appletvbutton {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #ffffff;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.appletvbutton a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.appletvbutton a:hover {
+  text-decoration: underline;
+}
+/* Footer */
+footer {
+  background: #f5f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+}
+.top-footer {
+  border-bottom: 1px solid rgba(110, 110, 115, 0.2);
+}
+
+.top-footer ul {
+  list-style: none;
+  max-width: 50vw;
+  padding: 1rem 0;
+}
+
+.top-footer ul li {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #6e6e73;
+  font-size: 0.8rem;
+  line-height: 16px;
+  font-weight: 400;
+  padding: 0.5rem 0;
+}
+
+.middle-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.middle-footer ul {
+  list-style: none;
+  padding: 0.5rem 0;
+}
+
+.middle-footer ul li {
+  padding: 0.2rem 0;
+}
+
+.middle-footer .column-1 {
+  padding-left: 0;
+}
+
+.middle-footer .column-2,
+.middle-footer .column-4,
+.middle-footer .column-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom-footer {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #6e6e73;
+  font-size: 0.8rem;
+  line-height: 16px;
+  font-weight: 400;
+  padding: 0.5rem 0;
+  width: 50vw;
+}
+
+.bottom-footer .top-bar {
+  border-bottom: 1px solid rgba(110, 110, 115, 0.2);
+}
+
+.bottom-footer .top-bar .footer-link {
+  color: var(--link-color);
+  border-bottom: 1px solid transparent;
+}
+
+.bottom-footer .top-bar .footer-link:hover {
+  border-color: var(--link-color);
+}
+
+.bottom-footer .bottom-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-footer .bottom-bar .left-middle-part {
+  display: flex;
+}
+
+.bottom-footer .bottom-bar .left-side {
+  margin-right: 1rem;
+}
+
+.bottom-footer .bottom-bar .middle-side ul {
+  list-style: none;
+  display: flex;
+}
+
+.bottom-footer .bottom-bar .middle-side ul li {
+  padding: 0 0.5rem;
+}
+.footer-title {
+  color: #000;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 0.5rem 0;
+}
+
+.footer-link {
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.footer-link:hover {
+  border-bottom: #6e6e73 1px solid;
+}
+
+.footer-bar {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.link {
+  color: var(--link-color);
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.link:hover {
+  border-bottom: 1px solid var(--link-color);
 }
