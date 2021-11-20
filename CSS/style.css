@@ -237,6 +237,18 @@ font-face {
 .thirdsectionbuttons a:hover {
   text-decoration: underline;
 }
+
+/* .rotate img {
+  animation: rotation 4s;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(-4deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+} */
 /* Second Grid Layout */
 .gridsection2 {
   margin-top: 1rem;
@@ -407,6 +419,9 @@ font-face {
 }
 .appletvbutton a:hover {
   text-decoration: underline;
+}
+.gridsection2:hover {
+  cursor: pointer;
 }
 /* Footer */
 footer {
