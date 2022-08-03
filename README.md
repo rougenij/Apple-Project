@@ -5,6 +5,8 @@
 
 ### This Project was written in HTML and CSS
  
+ 
+The idea behind this project was to find out how pixel perfect a mock website can be.
 
 # The state of the project
 ---------------------------------
